@@ -845,7 +845,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/e4/pigeon",
-                "reference": "4b5d72eeedc1ba69ba98c86f09d820eb211c175b"
+                "reference": "bdafbbce4946ff2191242d751e69e6cfd0d58dbb"
             },
             "require": {
                 "ext-openssl": "*",
