@@ -11,8 +11,7 @@ class ClientCreateListener
 
     public function handle(ClientCreateEvent $event)
     {
-
-        print_r($event->message()->body);
+        echo json_encode($event->message()->body);
         $event->message()->ack();
     }
 }
